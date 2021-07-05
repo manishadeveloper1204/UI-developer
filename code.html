@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>UI Developer-Assesment-1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1400px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1   ;
+      height: 100%;
+    }
+    
+    
+    
+    /* On small screens, set height to 'auto' for sidenav and grid  #f1f1f1 */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+           
+        height: auto;
+        padding: 15px;
+       
+      }
+      .row.content {height: auto;} 
+    }
+.mainblock
+{
+
+margin-left:150px;
+margin-top:20px;
+  width: 70%;
+text-align:center;
+ background-color: #f1f1f1 ;
+}
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-1 sidenav">
+<br>
+<ul class="nav nav-pills nav-stacked">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/nfc-round-tag.png"/>
+<br><br>
+     
+      <ul class="nav nav-pills nav-stacked">
+         <img src="https://img.icons8.com/windows/32/000000/user.png"/>
+       
+        <a href="#section2">Students</a>
+</ul><br>
+<ul class="nav nav-pills nav-stacked">
+         <img src="https://cdn.icon-icons.com/icons2/472/PNG/48/treatment_plan-48_45342.png"/>
+        <a href="#section3">Lesson Plan</a>
+</ul><br>
+<ul class="nav nav-pills nav-stacked">
+<img src="https://img.icons8.com/material-outlined/24/000000/settings--v1.png"/><br>
+        <a href="#section3">Setting</a>
+      </ul><br>
+      
+    </div>
+
+     <div class=mainblock>
+
+    <div class="col-sm-9"><br><br><br><br>
+<ul>
+<img src="https://img.icons8.com/material-rounded/24/000000/play--v2.png"/>
+<a href="#section3">Video</a>
+<ul><br><br>
+    <input type="url" class="form-control"  placeholder="Insert URL here" aria-describedby="urlHelp">
+
+    <br>
+      
+<p> or </p>
+
+      
+      <div class="col-sm-3">
+        
+          <textarea class="form-control" rows="3"placeholder="upload" required></textarea>
+        </div>
+     </div>
+     
+</body>
+</html>
